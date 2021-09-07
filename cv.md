@@ -9,6 +9,6 @@ BSU
 QA
 
 ## Language:
-English - C1
+English - C1, 
 German - A2
 
