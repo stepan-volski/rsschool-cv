@@ -6,7 +6,7 @@ stepan.volski@gmail.com
 BSU: humanitarian faculty
 
 ## Occupation:
-QA
+Automated QA
 
 ## Language:
 English - C1, 
