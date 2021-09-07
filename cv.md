@@ -3,7 +3,7 @@
 stepan.volski@gmail.com
 
 ## Education:
-BSU
+BSU: humanitarian faculty
 
 ## Occupation:
 QA
