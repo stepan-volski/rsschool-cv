@@ -1,0 +1,17 @@
+.divider{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#sabre {
+    height: 15px;
+}
+
+#red {
+    height: 3px;
+    width: 80%;
+    box-shadow: -1px 0 6px 3px var(--color-prime);
+    border-radius: 10px;
+    clip-path: inset(-6px -6px -6px 0px);
+}
