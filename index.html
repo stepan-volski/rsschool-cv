@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV: Darth Vader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="divider.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="vars.css">
+    <link rel="stylesheet" href="code.css">
+
+    <link href="./code-highlight/prism.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="title">
+                <h1>darth vader</h1>
+                <h3>Sith Lord and Emperor's Right Hand</h3>
+
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#code">Code Example</a></li>
+                        <li><a href="#projects">My Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <img src="./assets/img/photo.jpg" alt="Vader photo">
+
+        </header>
+
+        <main>
+
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <div class="divider">
+                    <img src="./assets/img/sabre.png" id="sabre">
+                    <img src="./assets/img/red.png" id="red">
+                </div>
+                <ul>
+                    <li>Born on Tatooine in 41.9 BBY</li>
+                    <li>Veteran of battle for Naboo</li>
+                    <li>Sith lord and commander in chief</li>
+                    <li>Proud father to son and daughter</li>
+                    <li>Languages: Droid - A2, Wookie - C1</li>
+                </ul>
+            </section>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="divider">
+                    <img src="./assets/img/sabre.png" id="sabre">
+                    <img src="./assets/img/red.png" id="red">
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="./assets/img/swords-icon.png" alt="First project">
+                        <h4>Lightsabre</h4>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/img/walker-icon.png" alt="Second project">
+                        <h4>Riding</h4>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/img/gun-icon.png" alt="Second project">
+                        <h4>Blasters</h4>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/img/droid-icon.png" alt="Second project">
+                        <h4>Droid repair</h4>
+                    </div>
+                    <div class="skill">
+                        <img src="./assets/img/ship-logo.png" alt="Second project">
+                        <h4>Driving</h4>
+                    </div>
+                </div>
+
+            </section>
+
+            <script src="./code-highlight/prism.js"></script>
+
+            <section class="code" id="code">
+                <h2>Code Example</h2>
+                <div class="divider">
+                    <img src="./assets/img/sabre.png" id="sabre">
+                    <img src="./assets/img/red.png" id="red">
+                </div>
+                <div>
+                    <pre><code class="language-js">function keyPressHandler(event) {
+                        if (event.type === "keydown") {
+                            playSound(event.code);
+                            highlightKey(event.code);
+                        }
+                    
+                        if (event.type === "keyup") {
+                            resetSelection(event.code);
+                        }
+                    }
+                    
+                    function highlightKey(keyCode) {
+                        let elem = document.getElementById(keyCode);
+                        if (elem) {
+                            elem.classList.add("key_pressed");
+                        }
+                    }</code></pre>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2>My Projects</h2>
+                <div class="divider">
+                    <img src="./assets/img/sabre.png" id="sabre">
+                    <img src="./assets/img/red.png" id="red">
+                </div>
+                <div class="projects-container">
+                    <div class="project">
+                        <a href="https://starwars.fandom.com/wiki/Death_Star" target="_blank">
+                            <img src="./assets/img/death-star.png" alt="First project">
+                        </a>
+                        <h4>Death star</h4>
+                    </div>
+                    <div class="project">
+                        <a href="https://starwars.fandom.com/wiki/DS-2_Death_Star_II_Mobile_Battle_Station"
+                            target="_blank">
+                            <img src="./assets/img/death-star2.png" alt="Second project">
+                        </a>
+                        <h4>Death star II</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <div class="divider">
+                    <img src="./assets/img/sabre.png" id="sabre">
+                    <img src="./assets/img/red.png" id="red">
+                </div>
+                <ul>
+                    <li>E-mail: vader1984@mail.ru</li>
+                    <li>Address: Death star, room 15</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <h5>Designed by: <a href="https://github.com/stepan-volski" target="_blank">Volski Stepan</a></h5>
+
+            <h5>Powered by: <a href="https://app.rs.school/" target="_blank">
+                    RSS School
+                </a></h5>
+    </div>
+    </footer>
+
+</body>
+
+</html>
