@@ -4,7 +4,20 @@
     margin-bottom: 10px;
 }
 
-#sabre {
+.divider img:nth-child(1){
+    height: 15px;
+}
+
+.divider img:nth-child(2){
+    height: 3px;
+    width: 80%;
+    box-shadow: -1px 0 6px 3px var(--color-prime);
+    border-radius: 10px;
+    clip-path: inset(-6px -6px -6px 0px);
+}
+
+
+/* #sabre {
     height: 15px;
 }
 
@@ -14,4 +27,4 @@
     box-shadow: -1px 0 6px 3px var(--color-prime);
     border-radius: 10px;
     clip-path: inset(-6px -6px -6px 0px);
-}
+} */
